@@ -79,24 +79,6 @@ proxy-groups:
      - AKUN WS
      - AKUN GRPC
 
-  - name: FALLBACKID
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-     - AKUN WS
-     - AKUN GRPC
-
-  - name: FALLBACKMIX
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-     - AKUN WS
-     - AKUN GRPC
-
   - name: IKLAN
     type: select
     proxies:
