@@ -110,7 +110,6 @@ proxy-groups:
      - DIRECT
      - REJECT
 
-
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Block,IKLAN
@@ -124,7 +123,6 @@ rules:
  - RULE-SET,Meta,MIX-X
  - RULE-SET,PortGame,GAME
  - MATCH,MIX-X
-
 
 rule-providers:
   Game:
