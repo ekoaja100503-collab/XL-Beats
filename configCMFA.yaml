@@ -76,7 +76,8 @@ proxy-groups:
      - DIRECT
      - REJECT
     use:
-     - MIX
+     - AKUN WS
+     - AKUN GRPC
 
   - name: FALLBACKID
     type: url-test
@@ -93,7 +94,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-     - MIX
+     - AKUN WS
+     - AKUN GRPC
 
   - name: IKLAN
     type: select
