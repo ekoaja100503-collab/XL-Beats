@@ -62,7 +62,6 @@ proxy-groups:
   - name: ID-X
     type: select
     proxies:
-     - FALLBACKID
      - DIRECT
      - REJECT
     use:
@@ -72,7 +71,6 @@ proxy-groups:
   - name: MIX-X
     type: select
     proxies:
-     - FALLBACKMIX
      - DIRECT
      - REJECT
     use:
